@@ -4,7 +4,12 @@
 }
 
 body{
+    min-height: 100%;
     background-image: url(imagens/bckgroundimg-g.jpg);
+    background-size: cover; /*faz com que a img cubra a tela td*/
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
@@ -79,4 +84,36 @@ p > a {
     color: white;
     border: none;
     border-radius: 5px;
+}
+
+@media (max-width: 600px){
+    body{
+        min-height: 100%;
+        background-image: url(imagens/bckgroundimg-p.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        /*configuração para deixar a img correta em qualquer tamanho de tela*/
+    }
+    #container {
+        width: 80%;
+        margin: 30 px 30 px;
+    }
+}
+
+@media (max-width: 800px){
+    body{
+        min-height: 100%;
+        background-image: url(imagens/bckgroundimg-m.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+
+    #container{
+        width: 80%;
+        margin: 30 px 30 px;
+    }
 }
