@@ -97,6 +97,7 @@ p > a {
         /*configuração para deixar a img correta em qualquer tamanho de tela*/
     }
     #container {
+        background-color: white;
         width: 80%;
         margin: 30 px 30 px;
     }
@@ -113,6 +114,7 @@ p > a {
     }
 
     #container{
+        background-color: white;
         width: 80%;
         margin: 30 px 30 px;
     }
