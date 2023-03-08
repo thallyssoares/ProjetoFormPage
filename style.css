@@ -19,6 +19,8 @@ body{
 }
 
 h1{
+    display: block;
+    margin: auto;
     font-size: 2.5em;
     color: #060A01;
     margin-top: 30px;
@@ -35,6 +37,16 @@ h1{
     justify-content: center;
     align-items: center;
 
+}
+
+#container > p {
+    margin-top: -80px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-indent: 30px;
+    text-align: justify;
+    line-height: 1.25em;
 }
 
 #msg > p {
@@ -96,6 +108,10 @@ p > a {
         background-attachment: fixed;
         /*configuração para deixar a img correta em qualquer tamanho de tela*/
     }
+
+    h1 {
+        font-size: 1.5em;
+    }
     #container {
         width: 80%;
         margin: 30 px 30 px;
@@ -112,6 +128,10 @@ p > a {
         background-attachment: fixed;
     }
 
+    h1{
+        font-size: 2em;
+    }
+    
     #container{
         width: 80%;
         margin: 30 px 30 px;
